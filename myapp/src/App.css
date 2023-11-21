@@ -1,0 +1,40 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #333; 
+}
+
+.App {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  height: 100vh;
+}
+
+.product-container {
+  margin: 10px;
+}
+
+.product-box {
+  background-color: #444; 
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1); 
+  border-radius: 8px;
+  padding: 20px;
+  width: 300px;
+  text-align: left;
+}
+
+.product-box h2 {
+  margin-top: 0;
+  color: #eee; 
+}
+
+.product-box p {
+  color: #ccc; 
+}
+
+.product-box p:first-child {
+  font-weight: bold;
+}
